@@ -1,0 +1,123 @@
+.home {
+  background-color: #dc5f39;
+  min-height: 100vh;
+
+  & nav {
+    padding-top: 1.5rem;
+    padding-bottom: 1.5rem;
+    color: #fff;
+    & > .logo {
+      color: #211313ad;
+    }
+  }
+}
+.home-links {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  & li a {
+    color: #fff;
+  }
+  & > * {
+    margin-left: 1rem;
+    color: #fff;
+  }
+  .btnDash, .btnLog{
+    appearance: none;
+  background-color: #211313ad;
+  border: 2px solid #211313ad;
+  border-radius: 15px;
+  box-sizing: border-box;
+  color: #FFFFFF;
+  cursor: pointer;
+  display: inline-block;
+  font-size: 16px;
+  font-weight: lighter;
+  line-height: normal;
+  margin: 0;
+  min-height: 5px;
+  min-width: 0;
+  outline: none;
+  padding: 10px 10px;
+  text-align: center;
+  text-decoration: none;
+  transition: all 300ms cubic-bezier(.23, 1, 0.32, 1);
+  user-select: none;
+  -webkit-user-select: none;
+  touch-action: manipulation;
+  width: 100%;
+  will-change: transform;
+  }
+}
+
+.hero {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.hero-text {
+  width: 50%;
+  & > * {
+    color: #fff;
+    margin-bottom: 2rem;
+  }
+  & > h2 span {
+    display: block;
+  }
+  & .hero-buttons a {
+    color: #fff;
+  }
+}
+.hero-image {
+  width: 60%;
+}
+@media screen and (max-width: 600px) {
+  .hero {
+    flex-direction: column;
+  }
+
+  .hero-text {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    width: 100%;
+    margin: auto;
+    text-align: center;
+  }
+  .hero-image {
+    width: 100%;
+    &img {
+      width: 100%;
+    }
+  }
+}
+
+.btnStart{
+  appearance: none;
+  background-color: #211313ad;
+  border: 2px solid #211313ad;
+  border-radius: 15px;
+  box-sizing: border-box;
+  color: #FFFFFF;
+  cursor: pointer;
+  display: inline-block;
+  font-size: 16px;
+  font-weight: lighter;
+  line-height: normal;
+  margin: 0;
+  min-height: 5px;
+  min-width: 0;
+  outline: none;
+  padding: 10px 10px;
+  text-align: center;
+  text-decoration: none;
+  transition: all 300ms cubic-bezier(.23, 1, 0.32, 1);
+  user-select: none;
+  -webkit-user-select: none;
+  touch-action: manipulation;
+  width: 50%;
+  will-change: transform;
+}
+

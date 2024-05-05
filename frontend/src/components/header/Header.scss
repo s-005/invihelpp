@@ -1,0 +1,25 @@
+.btnLogout{
+    background-color: #dc5f39;
+    border: 2px solid #211313ad;
+    border-radius: 5px;
+    box-sizing: border-box;
+    color: #FFFFFF;
+    cursor: pointer;
+    display: inline-block;
+    font-size: 16px;
+    font-weight: lighter;
+    line-height: normal;
+    margin: 0;
+    min-height: 5px;
+    min-width: 0;
+    outline: none;
+    padding: 5px 5px 5px 5px;
+    text-align: center;
+    text-decoration: none;
+    transition: all 300ms cubic-bezier(.23, 1, 0.32, 1);
+    user-select: none;
+    -webkit-user-select: none;
+    touch-action: manipulation;
+    will-change: transform;
+    width: 10%;
+}
