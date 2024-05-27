@@ -47,13 +47,24 @@ const ProductForm = ({
           />
 
           <label>Product Category:</label>
-          <input
+          <select
             type="text"
             placeholder="Product Category"
             name="category"
             value={product?.category}
             onChange={handleInputChange}
-          />
+          >
+            <option>Electronics</option>
+            <option>Apparel & Fashion</option>
+            <option>Home & Kitchen Appliances</option>
+            <option>Health & Beauty</option>
+            <option>Groceries & Food items</option>
+            <option>Office Supplies</option>
+            <option>Furniture & Home Decor</option>
+            <option>Automotive parts & accessories</option>
+            <option>Sports & Fitness</option>
+            <option>Toys & Games</option>
+          </select>
 
           <label>Product Price:</label>
           <input
