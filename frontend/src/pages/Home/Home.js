@@ -44,14 +44,14 @@ const Home = () => {
             on both large and small scale, effectively and efficiently.
           </p>
           <div className="hero-buttons">
-            <button className="btnStart">
-              <Link to="/dashboard">Start!</Link>
-            </button>
+            <Link to="/dashboard">
+              <button className="btnStart">Start!</button>
+            </Link>
           </div>
-          <div className="--flex-start">
+          {/* <div className="--flex-start">
             <NumberText num="--" text="Active Users  " />
             <NumberText num="  --" text="  Partners" />
-          </div>
+          </div> */}
         </div>
 
         <div className="hero-image">

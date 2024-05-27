@@ -11,9 +11,11 @@ const SidebarItem = ({ item, isOpen }) => {
   if (item.childrens) {
     return (
       <div
+        style={{ cursor: "pointer" }}
         className={
           expandMenu ? "sidebar-item s-parent open" : "sidebar-item s-parent"
         }
+        onClick={() => setExpandMenu(!expandMenu)}
       >
         <div className="sidebar-title">
           <span>

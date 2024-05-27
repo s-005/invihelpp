@@ -67,13 +67,12 @@ const Contact = () => {
               </span>
               <span>
                 <FaEnvelope />
-                <p>support@invihelp.com</p>
+                <p>bansallovish72@gmail.com</p>
               </span>
               <span>
                 <GoLocation />
                 <p>India</p>
               </span>
-              
             </div>
           </Card>
         </div>
