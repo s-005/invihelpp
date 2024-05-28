@@ -18,4 +18,4 @@ For any questions or support, please contact us at:
 
 Website: [Invihelp](https://invihelp.vercel.app/)
 
-GitHub: [Invihelp Repository](https://github.com/lovishbansal00/invihelpp)
+GitHub: [Invihelp Repository](https://github.com/MahirBansal/InviHelp-Major-Project)
